@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Identity</servlet-name>
+    <servlet-class>Servlet.Identity</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReaderIdentity</servlet-name>
+    <servlet-class>Servlet.ReaderIdentity</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Borrow</servlet-name>
+    <servlet-class>Servlet.Borrow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetBorrow</servlet-name>
+    <servlet-class>Servlet.GetBorrow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BookQuery</servlet-name>
+    <servlet-class>Servlet.BookQuery</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Return</servlet-name>
+    <servlet-class>Servlet.Return</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetReturn</servlet-name>
+    <servlet-class>Servlet.GetReturn</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Books</servlet-name>
+    <servlet-class>Servlet.Books</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Borrows</servlet-name>
+    <servlet-class>Servlet.Borrows</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetReader</servlet-name>
+    <servlet-class>Servlet.GetReader</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Readers</servlet-name>
+    <servlet-class>Servlet.Readers</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Identity</servlet-name>
+    <url-pattern>/servlet/Identity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReaderIdentity</servlet-name>
+    <url-pattern>/servlet/ReaderIdentity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Borrow</servlet-name>
+    <url-pattern>/servlet/Borrow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetBorrow</servlet-name>
+    <url-pattern>/servlet/GetBorrow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookQuery</servlet-name>
+    <url-pattern>/servlet/BookQuery</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Return</servlet-name>
+    <url-pattern>/servlet/Return</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetReturn</servlet-name>
+    <url-pattern>/servlet/GetReturn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Books</servlet-name>
+    <url-pattern>/servlet/Books</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Borrows</servlet-name>
+    <url-pattern>/servlet/Borrows</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetReader</servlet-name>
+    <url-pattern>/servlet/GetReader</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Readers</servlet-name>
+    <url-pattern>/servlet/Readers</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
